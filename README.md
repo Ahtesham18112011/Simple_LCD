@@ -16,6 +16,11 @@ I2C (Inter-Integrated Circuit) is a two-wire, synchronous, serial communication 
 
 Connect the Arduino's SCL and SDA pins to the I2C module's SCL and SDA pins. and then connect or solder the module to an LCD display.
 
+| Arduino pins | 12C module's pins |
+|-----------------|-----------------|
+| SCL    | SCL    | 
+| SDA    | SDA   |
+
 ## Set Slave address and size 
 
 ```c++
