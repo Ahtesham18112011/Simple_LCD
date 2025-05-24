@@ -24,7 +24,7 @@ Set the Slave address and the LCD display size here. In place of 0x27 write your
 
 ## Compile and simulate
 
-Compile by just going to Arduino IDE, setting the COM number, downloading the Liquid Crystal_12C library, writing the LCD code and then uploading. 
+Compile by just going to Arduino IDE, setting the COM number, downloading the Liquid Crystal_12C library in the Arduino IDE, writing the [LCD code](https://github.com/Ahtesham18112011/Simple_LCD/blob/main/test.ino) and then uploading. 
 
 ## Connect with me 
 Connect with me in
