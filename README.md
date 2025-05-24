@@ -22,3 +22,12 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 char
 
 Set the Slave address and the LCD display size here. In place of 0x27 write your Slave's(I2C module) address, to find out the address compile [this](https://github.com/Ahtesham18112011/Simple_LCD/blob/main/12c_scanner.ino) program and test it through the serial monitor in Arduino IDE. And set your LCD's size in place of 16 and 2. In this case its mean the display has 16 charachters and 2 lines.
 
+## Compile and simulate
+
+Compile by just going to Arduino IDE, setting the COM number, downloading the Liquid Crystal_12C library, writing the LCD code and then uploading. 
+
+## Connect with me 
+Connect with me in
+
+
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="30"/>](https://www.linkedin.com/in/ahtesham-ahmed-779845365/)
