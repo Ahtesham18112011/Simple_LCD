@@ -14,7 +14,9 @@ I2C (Inter-Integrated Circuit) is a two-wire, synchronous, serial communication 
 
 ![image](https://github.com/user-attachments/assets/afbae635-817d-4e77-9ec5-ee7330943500)
 
-
+```c++
+LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+```
 
 
 
