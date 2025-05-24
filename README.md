@@ -3,9 +3,7 @@
 
 
 
-## Connection 
 
-Connect the Arduino's SCL and SDA pins to the I2C module's SCL and SDA pins. and then connect or solder the module to an LCD display.
 
 
 ## What is I2C
@@ -13,6 +11,10 @@ Connect the Arduino's SCL and SDA pins to the I2C module's SCL and SDA pins. and
 I2C (Inter-Integrated Circuit) is a two-wire, synchronous, serial communication protocol used to enable communication between devices over short distances, such as between a microcontroller and peripheral devices like sensors or memory chips. It's widely used in embedded systems and other applications due to its simplicity and efficiency. 
 
 ![image](https://github.com/user-attachments/assets/afbae635-817d-4e77-9ec5-ee7330943500)
+
+## Connection 
+
+Connect the Arduino's SCL and SDA pins to the I2C module's SCL and SDA pins. and then connect or solder the module to an LCD display.
 
 ## Set Slave address and size 
 
