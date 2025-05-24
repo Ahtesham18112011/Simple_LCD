@@ -14,9 +14,11 @@ I2C (Inter-Integrated Circuit) is a two-wire, synchronous, serial communication 
 
 ![image](https://github.com/user-attachments/assets/afbae635-817d-4e77-9ec5-ee7330943500)
 
+## Set Slave address and size 
+
 ```c++
 LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display
 ```
 
-
+Set the Slave address and the LCD display size here. In place of 0x27 write your Slave's(I2C module) address, to find out the address compile [this](https://github.com/Ahtesham18112011/Simple_LCD/blob/main/12c_scanner.ino) program and test it through the serial monitor in Arduino IDE. And set your LCD's size in place of 16 and 2. In this case its mean the display has 16 charachters and 2 lines.
 
