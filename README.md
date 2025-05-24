@@ -22,6 +22,9 @@ Connect the Arduino's SCL and SDA pins to the I2C module's SCL and SDA pins. and
 | Arduino' SDA    | SDA   |
 |GND   | GND    | 
 | VCC    | VCC   |
+
+
+
 ![image](https://github.com/user-attachments/assets/4018aa33-8554-4f5d-83c4-2bc1e08e2f53)
 
 ## Set Slave address and size 
